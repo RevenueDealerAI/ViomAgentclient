@@ -80,7 +80,7 @@ export function App({ appConfig }: AppProps) {
       aborted = true;
       room.disconnect();
     };
-  }, [room, sessionStarted, appConfig, existingOrRefreshConnectionDetails]);
+  }, [room, sessionStarted, appConfig.isPreConnectBufferEnabled]);
 
   const { startButtonText } = appConfig;
 

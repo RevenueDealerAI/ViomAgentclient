@@ -1,9 +1,9 @@
 import type { AppConfig } from "./lib/types";
 
 export const APP_CONFIG_DEFAULTS: AppConfig = {
-  companyName: "ViomAI",
-  pageTitle: "ViomAI Voice Agent",
-  pageDescription: "A voice agent built for you by ViomAI",
+  companyName: "Kushagra Gangwar",
+  pageTitle: "Voice Bot",
+  pageDescription: "A voice agent built for you by Kushagra Gangwar",
 
   supportsChatInput: true,
   supportsVideoInput: true,
@@ -11,7 +11,7 @@ export const APP_CONFIG_DEFAULTS: AppConfig = {
   isPreConnectBufferEnabled: true,
 
   logo: "/lk-logo.png",
-  accent: "#f6ff00",
+  accent: "#002cf2",
   logoDark: "/lk-logo.png",
   accentDark: "#959595ff",
   startButtonText: "Chat Now",
